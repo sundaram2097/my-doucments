@@ -1,0 +1,56 @@
+[
+    
+  {
+    "name":"meenakshisundaram",
+    "date of birth":"27/05/1998",
+    "age" :23,
+    "gender":"male",
+    "marital status":"single",
+    "contacts":{
+    "mail":"meenakshisundaram2097@gmail.com",
+    "website": "www.meenakshisundaram",
+    "phone": "06700908899"
+    },
+    "addres": {
+         " door number":"1/60",
+         "street":"south street",
+         "village":"paloothupatti",
+         "post" : "uchapatti post",
+         "city" :"tamilnadu",
+         "pincode":624432
+        }
+    },
+     "education" : {
+        "sslc score":"68.5%",
+        "graduated year": 2012,
+        "bord":"state bord",
+        "place":"madurai",
+        },
+        {
+        "hsc score":"65.2%",
+        "graduated year":2014,
+        "bord":"statebord",
+        "place":"madurai",
+        },
+        {
+        "bachelor of science score":"55.5%",
+        "department":"mathematics & computerapplication",
+        "graduated year":2019,
+        "university":"mku",
+        },
+    
+    
+    {"language1":"tamil",
+    "language2":"english"},
+    {
+        "exprions":"friesher"
+    },
+    {"technical proficiencies": "web development"},
+    "programming languages1" : {"pl1":"python",
+        "pl2":"javascript",
+        "pl3":"java",
+    }
+    
+
+    
+]
