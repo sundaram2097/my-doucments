@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Display All The Country Flags </h1>
+
+
+
+    <!--Display All The Country Flags -->
+    <script>
+        var http = new XMLHttpRequest();
+      http.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200)
+          console.log(this.responseType);
+        var obj = JSON.parse(this.responseText);
+        let task = []
+  
+        obj.forEach((i) => {
+          task.push(i.flags.png ) 
+        
+        });
+        console.log(task);
+        task.forEach((img) => {
+          console.log('%c ', 'font-size:600px; background:url(' + img + ') no-repeat;');
+          
+        })
+      }
+      http.open("GET", "https://restcountries.com/v3.1/all");
+      http.send();
+    </script>
+
+
+
+
+</body>
+</html>
